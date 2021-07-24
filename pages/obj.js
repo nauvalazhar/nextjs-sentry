@@ -13,6 +13,6 @@ export async function getServerSideProps() {
 
 export default function Obj({ user }) {
     return (
-        <div>{user.name} - {user.location.city}</div>
+        <div>{user.name} - {user.location.city} {user.somekey.someerror}</div>
     );
 }
